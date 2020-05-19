@@ -1,0 +1,6 @@
+version: "3"
+services:
+  duplicati:
+    image: "redis"
+    ports:
+      - "${PORT}:6379"
